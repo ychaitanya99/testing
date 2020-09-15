@@ -31,6 +31,6 @@ jobs:
  # FTP account password
           ftp-password: "{{ secrets.PWD }}"
     # The local folder to copy, defaults to root project folder
-          local-dir: html
+          local-dir: ./
  
     
